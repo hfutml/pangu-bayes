@@ -3,8 +3,38 @@
 Pangu-Bayes is an open-source Bayesian ensemble forecasting framework for global weather forecasting. 
 This repository provides the official implementation of Pangu-Bayes, including deterministic pretraining, epistemic uncertainty learning, joint epistemic-aleatoric uncertainty learning, ensemble forecast inference, probabilistic post-processing, and evaluation scripts.
 
+## Citation
+
+An earlier version of this work is available on arXiv:
+
+**Bridging the Gap Between Bayesian Deep Learning and Ensemble Weather Forecasts**  
+Xinlei Xiong, Wenbo Hu, Shuxun Zhou, Kaifeng Bi, Lingxi Xie, Ying Liu, Richang Hong, and Qi Tian  
+arXiv:2511.14218, 2025
+
+Paper: https://arxiv.org/abs/2511.14218
+
+If you find this repository useful, please cite:
+
+```bibtex
+@article{xiong2025bridging,
+  title={Bridging the Gap Between Bayesian Deep Learning and Ensemble Weather Forecasts},
+  author={Xiong, Xinlei and Hu, Wenbo and Zhou, Shuxun and Bi, Kaifeng and Xie, Lingxi and Liu, Ying and Hong, Richang and Tian, Qi},
+  journal={arXiv preprint arXiv:2511.14218},
+  year={2025}
+}
 
 
+## Resources
+
+- **Code:** https://github.com/hfutml/pangu-bayes
+- **Model checkpoints:** https://huggingface.co/xionge/pangu-bayes
+- **Preprint:** https://arxiv.org/abs/2511.14218
+
+The current preprint is:
+
+> Xinlei Xiong, Wenbo Hu, Shuxun Zhou, Kaifeng Bi, Lingxi Xie, Ying Liu, Richang Hong, and Qi Tian.  
+> **Bridging the Gap Between Bayesian Deep Learning and Ensemble Weather Forecasts.**  
+> arXiv:2511.14218, 2025.
 
 
 ## Installation
@@ -169,7 +199,11 @@ The tropical cyclone workflow consists of two main steps:
 
 ## Model Checkpoints
 
-Model checkpoints are organized under:
+The Pangu-Bayes model checkpoints are publicly available on Hugging Face:
+
+https://huggingface.co/xionge/pangu-bayes
+
+The checkpoints correspond to the main stages of the forecasting framework and are organized as:
 
 ```text
 checkpoint/
@@ -178,21 +212,6 @@ checkpoint/
 ├── eu_au_ensemble_forecast.pt
 ├── eu_au_ensemble_forecast_hres.pt
 └── best_prob_ann.pt
-```
-
-## Citation
-
-If you find this repository useful, please cite our paper:
-
-```bibtex
-@article{pangu_bayes_2026,
-  title={Pangu-Bayes: A Bayesian Ensemble Framework for Global Weather Forecasting},
-  author={Author Name and Author Name},
-  journal={Journal Name},
-  year={2026}
-}
-```
-
 
 ## Acknowledgements
 
