@@ -1,4 +1,4 @@
-# Pangu-Bayes: A Bayesian Ensemble Framework for Global Weather Forecasting
+# Resolving sources of uncertainty in AI weather forecasting
 
 Pangu-Bayes is an open-source Bayesian ensemble forecasting framework for global weather forecasting.
 
@@ -12,9 +12,15 @@ This repository provides the official implementation of Pangu-Bayes, including d
 
 An earlier version of this work is available as:
 
-> Xinlei Xiong, Wenbo Hu, Shuxun Zhou, Kaifeng Bi, Lingxi Xie, Ying Liu, Richang Hong, and Qi Tian.  
-> **Bridging the Gap Between Bayesian Deep Learning and Ensemble Weather Forecasts.**  
-> arXiv:2511.14218, 2025.
+> Wenbo Hu¹*, Xinlei Xiong¹*, Shuxun Zhou¹, Kaifeng Bi², Lingxi Xie², Jun Zhu³, Richang Hong¹, and Qi Tian²†.  
+> **Resolving sources of uncertainty in AI weather forecasting**  
+> arXiv:2511.14218, 2025.  
+>
+> ¹ Hefei University of Technology, Hefei, China  
+> ² Huawei Inc., Shenzhen, China  
+> ³ Tsinghua University, Beijing, China  
+>
+> * Equal contribution. † Corresponding author.
 
 ---
 
