@@ -291,37 +291,19 @@ https://github.com/hfutml/pangu-bayes
 
 ---
 
-## Preprint
-
-An earlier version of this work is available on arXiv:
-
-**Bridging the Gap Between Bayesian Deep Learning and Ensemble Weather Forecasts**
-
-Xinlei Xiong, Wenbo Hu, Shuxun Zhou, Kaifeng Bi, Lingxi Xie, Ying Liu, Richang Hong, and Qi Tian.
-
-arXiv:2511.14218, 2025.
-
-- **Abstract page:** https://arxiv.org/abs/2511.14218
-- **PDF:** https://arxiv.org/pdf/2511.14218
-- **DOI:** https://doi.org/10.48550/arXiv.2511.14218
-
-The current repository contains the implementation and resources associated with the continuing development of Pangu-Bayes.
-
----
-
 ## Citation
 
 If you find this repository useful, please cite the current arXiv preprint:
 
 ```bibtex
-@article{xiong2025bridging,
-  title={Bridging the Gap Between Bayesian Deep Learning and Ensemble Weather Forecasts},
-  author={Xiong, Xinlei and
-          Hu, Wenbo and
+@article{hu2025resolving,
+  title={Resolving Sources of Uncertainty in AI Weather Forecasting},
+  author={Hu, Wenbo and
+          Xiong, Xinlei and
           Zhou, Shuxun and
           Bi, Kaifeng and
           Xie, Lingxi and
-          Liu, Ying and
+          Zhu, Jun and
           Hong, Richang and
           Tian, Qi},
   journal={arXiv preprint arXiv:2511.14218},
@@ -360,3 +342,10 @@ We also acknowledge the open-source tools and benchmark resources used for globa
 - **GitHub:** https://github.com/hfutml/pangu-bayes
 - **Hugging Face:** https://huggingface.co/xionge/pangu-bayes
 - **arXiv:** https://arxiv.org/abs/2511.14218
+## License
+
+The Pangu-Bayes source code and model checkpoints are released under the
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+(CC BY-NC-SA 4.0) license.
+
+For commercial use or other licensing arrangements, please contact the authors.
