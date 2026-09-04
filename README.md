@@ -348,4 +348,7 @@ The Pangu-Bayes source code and model checkpoints are released under the
 Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
 (CC BY-NC-SA 4.0) license.
 
+Also, please note that all models were trained using the ERA5 dataset provided by ECMWF. Please do follow [their policy](https://apps.ecmwf.int/datasets/licences/copernicus/).
+
+
 For commercial use or other licensing arrangements, please contact the authors.
