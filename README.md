@@ -24,6 +24,24 @@ An earlier version of this work is available as:
 
 ---
 
+## Contact
+
+For questions regarding **research collaboration, scientific applications, uncertainty quantification, or further research development of Pangu-Bayes**, please contact:
+
+**Wenbo Hu**  
+Hefei University of Technology  
+Email: hwb13@tsinghua.org.cn
+
+For questions regarding **model reproduction, implementation details, training, inference, checkpoints, or evaluation scripts**, please contact:
+
+**Xinlei Xiong**  
+Hefei University of Technology  
+Email: xinlei_xiong@mail.hfut.edu.cn
+
+For implementation-related questions, please include the relevant configuration, checkpoint, software environment, and error message when possible.
+
+---
+
 ## Installation
 
 We recommend using Conda to create the environment.
